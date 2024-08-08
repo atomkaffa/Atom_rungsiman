@@ -2,9 +2,8 @@
     font-family: 'MN Khamin';
     src: url('fonts/MN Khamin.ttf') format('truetype'); /* ปรับชื่อไฟล์ให้ตรงกับที่คุณใช้งาน */
 }
-
 body {
-    font-family: MN Khamin;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
@@ -58,17 +57,16 @@ main {
     text-align: center;
 }
 .education-section {
-    max-width: 600px;
-    margin-left: 33.5%;
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
 }
 .education-box {
-    border: 1px solid #00b3b3;
-    justify-content: center;
-    align-items: center;
+    border-bottom: 2px solid #007575;
     padding: 15px;
-    margin-bottom: 10px;
 
-    text-align: center;
 }
 .education-box h2 {
     margin: 0;
